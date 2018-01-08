@@ -7,7 +7,8 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	color:rgba(144,168,163,1);
 }
 
 .wrapper {
@@ -15,6 +16,32 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+
+h1 {
+	font-size:4em;
+	line-height:1.5em;
+	margin:0;
+}
+
+#necklace {
+	border: 7px solid rgba(144,168,163,1);
+
+}
+
+h2 {
+	font-weight:bold;
+}
+
+a img {
+	float:left;
+	border: 3px solid rgba(144,168,163,0.5);
+	margin-left:0;
+	padding-left:0;
+}
+
+#right {
+	text-align:right;
 }
 
 /* Write all remaining styles here */
